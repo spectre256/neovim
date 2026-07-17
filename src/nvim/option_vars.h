@@ -610,8 +610,8 @@ EXTERN int p_cdh;               ///< 'cdhome'
 
 #define MAX_NUMBERWIDTH 20      // used for 'numberwidth'
 
-// Maximum 'statuscolumn' width: number + sign + fold columns
-#define MAX_STCWIDTH MAX_NUMBERWIDTH + SIGN_SHOW_MAX * SIGN_WIDTH + 9
+// Maximum 'statuscolumn' width
+#define MAX_STCWIDTH 9999
 
 #define TABSTOP_MAX 9999
 
